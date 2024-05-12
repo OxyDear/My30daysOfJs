@@ -1,0 +1,32 @@
+
+#amount {
+    width: 300px;
+    height: 30px;
+    border: 1px solid green;
+    font-family: 'Oswald', serif;
+    font-size: 18px;
+    padding-left: 10px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    outline: none;
+}
+
+#amount:focus {
+    border: 3px solid #015401;
+}
+
+#amountButton {
+    width: 80px;
+    height: 33px;
+    color: white;
+    font-family: 'Oswald', serif;
+    font-size: 18px;
+    background-color: green;
+    border: 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+#amountButton:hover {
+    background-color: #017501;
+}
